@@ -34,6 +34,8 @@ rpres2slidify <- function(file){
 
 
 rpres2Convert <- list.files(pattern="Rpres")
+rpres2Slidify <- lapply(rpres2Convert,function(x){rpres2slidify(x)})
 
-lapply(rpres2Convert,function(x){slidify(rpres2slidify(x))})
+#try first and correct errors manually
+slidify(rpres2Slidify[1])
 

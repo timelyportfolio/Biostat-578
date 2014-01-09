@@ -1,20 +1,28 @@
 ---
-title: Bioinformatics for Big Omics Data: Advanced graphics in R using ggplot2
+#yaml does not like the :
+#title: Bioinformatics for Big Omics Data: Advanced graphics in R using ggplot2
+title: Bioinformatics for Big Omics Data | Advanced graphics in R using ggplot2
 width: 1440
 height: 900
 transition: none
 font-family: 'Helvetica'
+#slidify looking for assets:
+#                     css:
 css: my_style.css
 author: Raphael Gottardo, PhD
-date: `r format(Sys.Date(), format="%B %d, %Y")`
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><tiny>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</tiny></a>.
+#yaml does not like this
+#date: `r format(Sys.Date(), format="%B %d, %Y")`
+#yaml does not like this
+#<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><tiny>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</tiny></a>.
 
 
 ---
 
 Exploratory data analysis (EDA)
-=========================What is EDA?
+=========================
+<!--#somohow lose the line break on ======== except if line break exists like line 51-->
+<!--=========================What is EDA?-->
+What is EDA?
 - Statistical practice concerned with (among other things): uncover underlying structure, extract important variables, detect outliers and anomalies, test underlying assumptions, develop models
 - Named by John Tukey
 - *Extremely Important*
@@ -58,7 +66,7 @@ R provides many other graphics capabilities, such as histograms, boxplots, etc.
 ```{r histogram}
 hist(iris$Sepal.Length)
 ```
-
+<!--looks like ---------- denotes two column for rpres-->
 -----------
 
 ```{r boxplots}
