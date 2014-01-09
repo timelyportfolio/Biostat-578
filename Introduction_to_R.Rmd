@@ -1,14 +1,17 @@
 ---
-title: Bioinformatics for Big Omics Data: Introduction to R
+#get rid of :
+#title: Bioinformatics for Big Omics Data: Introduction to R
+title: Bioinformatics for Big Omics Data | Introduction to R
 width: 1440
 height: 900
 transition: none
 font-family: 'Helvetica'
 css: my_style.css
 author: Raphael Gottardo, PhD
-date: `r format(Sys.Date(), format="%B %d, %Y")`
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><tiny>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</tiny></a>.
+#fix this
+#date: `r format(Sys.Date(), format="%B %d, %Y")`
+#fix this
+#<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><tiny>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</tiny></a>.
 
 
 ---
